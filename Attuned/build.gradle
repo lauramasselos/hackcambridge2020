@@ -6,9 +6,13 @@ buildscript {
         mavenCentral()
         google()
         jcenter()
+<<<<<<< HEAD
         flatDir {
             dirs 'libs'
         }
+=======
+        mavenCentral()
+>>>>>>> a75ee23b5e4318c29c216c49682dc678fe2de4e0
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
